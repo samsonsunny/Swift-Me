@@ -15,6 +15,7 @@
 		223BF3C720CEA87500492455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223BF3C520CEA87500492455 /* LaunchScreen.storyboard */; };
 		223BF3D220CEA87500492455 /* Swift_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223BF3D120CEA87500492455 /* Swift_MeTests.swift */; };
 		223BF3DD20CEA87500492455 /* Swift_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223BF3DC20CEA87500492455 /* Swift_MeUITests.swift */; };
+		22D727B120D20B4F0068F26A /* Details.json in Resources */ = {isa = PBXBuildFile; fileRef = 22D727B020D20B4F0068F26A /* Details.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		223BF3D820CEA87500492455 /* Swift MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		223BF3DC20CEA87500492455 /* Swift_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MeUITests.swift; sourceTree = "<group>"; };
 		223BF3DE20CEA87500492455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D727B020D20B4F0068F26A /* Details.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Details.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		223BF3B920CEA87400492455 /* Swift Me */ = {
 			isa = PBXGroup;
 			children = (
+				22D727AF20D20B0A0068F26A /* Content */,
 				223BF3BA20CEA87400492455 /* AppDelegate.swift */,
 				223BF3BC20CEA87400492455 /* TopicsTableViewController.swift */,
 				223BF3BE20CEA87400492455 /* DetailsViewController.swift */,
@@ -126,6 +129,14 @@
 				223BF3DE20CEA87500492455 /* Info.plist */,
 			);
 			path = "Swift MeUITests";
+			sourceTree = "<group>";
+		};
+		22D727AF20D20B0A0068F26A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				22D727B020D20B4F0068F26A /* Details.json */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				223BF3C720CEA87500492455 /* LaunchScreen.storyboard in Resources */,
 				223BF3C420CEA87500492455 /* Assets.xcassets in Resources */,
+				22D727B120D20B4F0068F26A /* Details.json in Resources */,
 				223BF3C220CEA87400492455 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
